@@ -6,14 +6,18 @@
 
 body{
     font-family: monospace;
+    text-align: center;
+    line-height: 4em;
+
+}
+main{
+    position: relative;
+    min-height: 50vh;
     display:block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    line-height: 4em;
-    width: 50%;
-
 }
+
 
 .start-btn{
     padding:10px 29px;
@@ -62,7 +66,11 @@ body{
     margin-top: 10px; 
     width: 400px;
     height: auto;
-    padding: 20px;     
+    padding: 20px; 
+    margin-bottom: 100px;   
+    margin-left: auto;
+    margin-right: auto;
+    
 
 }
 
@@ -93,8 +101,43 @@ body{
     display: none;
 }
 
+footer{
+    width: 100%;
+    border-top: 1px solid #000;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color:rgb(223, 223, 223);
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
 
+a{
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+  }
+a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 
+span{
+    font-weight: 600;
+}
+
+img{
+    width: 20px;
+    height: auto;
+  }
 
 
 
