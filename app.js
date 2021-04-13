@@ -8,6 +8,7 @@ const resetButton = document.querySelector('.reset-btn');
 startButton.addEventListener('click',(e) => {
     gridContainer.style.display = 'grid';
     statusDisplay.style.display = 'inline';
+    resetButton.style.display = 'inline'
 })
 
 
@@ -55,6 +56,7 @@ function handleResultValidation(){
             continue;
         }
         if (a === b && b === c) {
+            
             roundWon = true;
             break;
         }
